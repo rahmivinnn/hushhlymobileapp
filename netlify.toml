@@ -1,0 +1,7 @@
+[build]
+  base = "hushhly"
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  VITE_PUBLIC_API_URL = "/"
